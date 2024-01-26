@@ -21,21 +21,23 @@ private val startingTitlePadding = Modifier.padding(start = 58.dp)
 @Composable
 internal fun AboutScreen(
     goBack: () -> Unit,
-    helpUsSection: @Composable () -> Unit,
-    aboutSection: @Composable () -> Unit,
-    socialSection: @Composable () -> Unit,
+    //helpUsSection: @Composable () -> Unit,
+    //aboutSection: @Composable () -> Unit,
+    //socialSection: @Composable () -> Unit,
     otherSection: @Composable () -> Unit,
     canScroll: (canPerformScroll: Boolean) -> Unit,
 ) {
     SettingsScaffold(title = stringResource(id = R.string.about), goBack = goBack, canScroll = canScroll) { paddingValues ->
-        aboutSection()
-        helpUsSection()
-        socialSection()
+        //aboutSection()
+        //helpUsSection()
+        //socialSection()
         otherSection()
-        SettingsListItem(text = stringResource(id = R.string.about_footer))
+        //SettingsListItem(text = stringResource(id = R.string.about_footer))
         Spacer(modifier = Modifier.padding(bottom = paddingValues.calculateBottomPadding()))
     }
 }
+
+/**
 
 @Composable
 internal fun HelpUsSection(
@@ -54,21 +56,26 @@ internal fun HelpUsSection(
     }
 }
 
+*/
+
 @Composable
 internal fun OtherSection(
-    showMoreApps: Boolean,
-    onMoreAppsClick: () -> Unit,
-    onWebsiteClick: () -> Unit,
-    showWebsite: Boolean,
-    showPrivacyPolicy: Boolean,
-    onPrivacyPolicyClick: () -> Unit,
-    onLicenseClick: () -> Unit,
+    //showMoreApps: Boolean,
+    //onMoreAppsClick: () -> Unit,
+    //onWebsiteClick: () -> Unit,
+    //showWebsite: Boolean,
+    //showPrivacyPolicy: Boolean,
+    //onPrivacyPolicyClick: () -> Unit,
+    //onLicenseClick: () -> Unit,
     version: String,
     onVersionClick: () -> Unit,
 ) {
     SettingsGroup(title = {
         SettingsTitleTextComponent(text = stringResource(id = R.string.other), modifier = startingTitlePadding)
     }) {
+
+        /**
+
         if (showMoreApps) {
             SettingsListItem(
                 tint = MaterialTheme.colorScheme.onSurface,
@@ -99,11 +106,15 @@ internal fun OtherSection(
             text = stringResource(id = R.string.third_party_licences),
             icon = R.drawable.ic_article_vector
         )
+
+        */
+
         SettingsListItem(tint = MaterialTheme.colorScheme.onSurface, click = onVersionClick, text = version, icon = R.drawable.ic_info_vector)
         SettingsHorizontalDivider()
     }
 }
 
+/**
 
 @Composable
 internal fun AboutSection(
@@ -139,6 +150,10 @@ internal fun AboutSection(
     }
 }
 
+*/
+
+/**
+
 @Composable
 internal fun SocialSection(
     onGithubClick: () -> Unit
@@ -157,12 +172,17 @@ internal fun SocialSection(
     }
 }
 
+*/
+
 @MyDevices
 @Composable
 private fun AboutScreenPreview() {
     AppThemeSurface {
         AboutScreen(
             goBack = {},
+
+             /**
+
             aboutSection = {
                 AboutSection(setupFAQ = true, onFAQClick = {}, onEmailClick = {}, onUpstreamClick = {})
             },
@@ -176,15 +196,18 @@ private fun AboutScreenPreview() {
                     onGithubClick = {}
                 )
             },
+
+            */
+
             otherSection = {
                 OtherSection(
-                    showMoreApps = true,
-                    onMoreAppsClick = {},
-                    onWebsiteClick = {},
-                    showWebsite = true,
-                    showPrivacyPolicy = true,
-                    onPrivacyPolicyClick = {},
-                    onLicenseClick = {},
+                    //showMoreApps = false,
+                    //onMoreAppsClick = {},
+                    //onWebsiteClick = {},
+                    //showWebsite = false,
+                    //showPrivacyPolicy = false,
+                    //onPrivacyPolicyClick = {},
+                    //onLicenseClick = {},
                     version = "5.0.4",
                     onVersionClick = {}
                 )
