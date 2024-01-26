@@ -305,7 +305,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateBackgroundColor(getCurrentBackgroundColor())
         updateActionbarColor(getCurrentStatusBarColor())
         updateAutoThemeFields()
-        updateApplyToAllColors(getCurrentPrimaryColor())
+        //updateApplyToAllColors(getCurrentPrimaryColor())
         handleAccentColorLayout()
     }
 
@@ -445,17 +445,21 @@ class CustomizationActivity : BaseSimpleActivity() {
         binding.customizationAccentColor.setFillWithStroke(curAccentColor, backgroundColor)
         binding.customizationBackgroundColor.setFillWithStroke(backgroundColor, backgroundColor)
         binding.customizationAppIconColor.setFillWithStroke(curAppIconColor, backgroundColor)
-        binding.applyToAll.setTextColor(primaryColor.getContrastColor())
+        //binding.applyToAll.setTextColor(primaryColor.getContrastColor())
 
         binding.customizationTextColorHolder.setOnClickListener { pickTextColor() }
         binding.customizationBackgroundColorHolder.setOnClickListener { pickBackgroundColor() }
         binding.customizationPrimaryColorHolder.setOnClickListener { pickPrimaryColor() }
         binding.customizationAccentColorHolder.setOnClickListener { pickAccentColor() }
 
+        /**
+
         handleAccentColorLayout()
         binding.applyToAll.setOnClickListener {
             applyToAll()
         }
+
+        */
 
         binding.customizationAppIconColorHolder.setOnClickListener {
             if (baseConfig.wasAppIconCustomizationWarningShown) {
@@ -490,8 +494,10 @@ class CustomizationActivity : BaseSimpleActivity() {
     private fun setCurrentPrimaryColor(color: Int) {
         curPrimaryColor = color
         updateActionbarColor(color)
-        updateApplyToAllColors(color)
+        //updateApplyToAllColors(color)
     }
+
+    /**
 
     private fun updateApplyToAllColors(newColor: Int) {
         if (newColor == baseConfig.primaryColor && !baseConfig.isUsingSystemTheme) {
@@ -502,6 +508,8 @@ class CustomizationActivity : BaseSimpleActivity() {
             binding.applyToAll.background = applyBackground
         }
     }
+
+    */
 
     private fun handleAccentColorLayout() {
         binding.customizationAccentColorHolder.beVisibleIf(curSelectedThemeId == THEME_WHITE || isCurrentWhiteTheme() || curSelectedThemeId == THEME_BLACK_WHITE || isCurrentBlackAndWhiteTheme())
@@ -629,8 +637,8 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
 
         val primaryColor = getCurrentPrimaryColor()
-        binding.applyToAll.setTextColor(primaryColor.getContrastColor())
-        updateApplyToAllColors(primaryColor)
+        //binding.applyToAll.setTextColor(primaryColor.getContrastColor())
+        //updateApplyToAllColors(primaryColor)
     }
 
     private fun getCurrentTextColor() = if (binding.customizationTheme.value == getMaterialYouString()) {
