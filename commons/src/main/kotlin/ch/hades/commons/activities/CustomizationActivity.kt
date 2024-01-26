@@ -203,12 +203,18 @@ class CustomizationActivity : BaseSimpleActivity() {
         binding.customizationThemeHolder.setOnClickListener {
             if (baseConfig.wasAppIconCustomizationWarningShown) {
                 themePickerClicked()
-            } else {
+            }
+
+            /**
+
+            else {
                 ConfirmationDialog(this, "", R.string.app_icon_color_warning, R.string.ok, 0) {
                     baseConfig.wasAppIconCustomizationWarningShown = true
                     themePickerClicked()
                 }
             }
+
+            */
         }
 
         if (binding.customizationTheme.value == getMaterialYouString()) {
@@ -464,12 +470,18 @@ class CustomizationActivity : BaseSimpleActivity() {
         binding.customizationAppIconColorHolder.setOnClickListener {
             if (baseConfig.wasAppIconCustomizationWarningShown) {
                 pickAppIconColor()
-            } else {
+            }
+
+            /**
+
+            else {
                 ConfirmationDialog(this, "", R.string.app_icon_color_warning, R.string.ok, 0) {
                     baseConfig.wasAppIconCustomizationWarningShown = true
                     pickAppIconColor()
                 }
             }
+
+            */
         }
     }
 
