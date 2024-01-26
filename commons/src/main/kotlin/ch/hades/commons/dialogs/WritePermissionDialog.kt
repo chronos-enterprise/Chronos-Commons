@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
 import androidx.appcompat.app.AlertDialog
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogWritePermissionBinding
-import com.simplemobiletools.commons.databinding.DialogWritePermissionOtgBinding
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.humanizePath
-import com.simplemobiletools.commons.extensions.setupDialogStuff
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogWritePermissionBinding
+import ch.hades.commons.databinding.DialogWritePermissionOtgBinding
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.humanizePath
+import ch.hades.commons.extensions.setupDialogStuff
 
 class WritePermissionDialog(activity: Activity, val mode: Mode, val callback: () -> Unit) {
     sealed class Mode {

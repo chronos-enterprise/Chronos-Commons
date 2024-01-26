@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogCreateNewFolderBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.isRPlus
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogCreateNewFolderBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.isRPlus
 import java.io.File
 
 class CreateNewFolderDialog(val activity: BaseSimpleActivity, val path: String, val callback: (path: String) -> Unit) {

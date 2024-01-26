@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.overloads
+package ch.hades.commons.overloads
 
 operator fun String.times(x: Int): String {
     val stringBuilder = StringBuilder()

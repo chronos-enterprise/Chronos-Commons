@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models
+package ch.hades.commons.models
 
 enum class Android30RenameFormat {
     SAF,

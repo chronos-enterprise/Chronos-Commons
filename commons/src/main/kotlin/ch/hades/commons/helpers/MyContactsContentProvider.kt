@@ -1,15 +1,15 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import android.content.Context
 import android.database.Cursor
 import android.net.Uri
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.simplemobiletools.commons.extensions.getIntValue
-import com.simplemobiletools.commons.extensions.getStringValue
-import com.simplemobiletools.commons.models.PhoneNumber
-import com.simplemobiletools.commons.models.SimpleContact
-import com.simplemobiletools.commons.models.contacts.Contact
+import ch.hades.commons.extensions.getIntValue
+import ch.hades.commons.extensions.getStringValue
+import ch.hades.commons.models.PhoneNumber
+import ch.hades.commons.models.SimpleContact
+import ch.hades.commons.models.contacts.Contact
 
 // used for sharing privately stored contacts in Simple Contacts with Simple Dialer, Simple SMS Messenger and Simple Calendar Pro
 class MyContactsContentProvider {

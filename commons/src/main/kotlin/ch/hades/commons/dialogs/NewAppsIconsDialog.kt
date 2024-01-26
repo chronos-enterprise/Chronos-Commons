@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
 import android.text.method.LinkMovementMethod
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogNewAppsIconsBinding
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.launchViewIntent
-import com.simplemobiletools.commons.extensions.setupDialogStuff
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogNewAppsIconsBinding
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.launchViewIntent
+import ch.hades.commons.extensions.setupDialogStuff
 
 class NewAppsIconsDialog(val activity: Activity) {
     init {

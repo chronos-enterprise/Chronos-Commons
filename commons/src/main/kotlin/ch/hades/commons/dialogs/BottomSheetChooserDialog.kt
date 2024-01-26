@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.os.Bundle
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
-import com.simplemobiletools.commons.adapters.setupSimpleListItem
-import com.simplemobiletools.commons.databinding.ItemSimpleListBinding
-import com.simplemobiletools.commons.fragments.BaseBottomSheetDialogFragment
-import com.simplemobiletools.commons.models.SimpleListItem
+import ch.hades.commons.adapters.setupSimpleListItem
+import ch.hades.commons.databinding.ItemSimpleListBinding
+import ch.hades.commons.fragments.BaseBottomSheetDialogFragment
+import ch.hades.commons.models.SimpleListItem
 
 open class BottomSheetChooserDialog : BaseBottomSheetDialogFragment() {
 

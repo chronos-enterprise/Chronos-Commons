@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package ch.hades.commons.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,14 +8,14 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.core.view.WindowCompat
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.AdjustNavigationBarColors
-import com.simplemobiletools.commons.compose.extensions.TransparentSystemBars
-import com.simplemobiletools.commons.compose.screens.LicenseScreen
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.extensions.launchViewIntent
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.License
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.AdjustNavigationBarColors
+import ch.hades.commons.compose.extensions.TransparentSystemBars
+import ch.hades.commons.compose.screens.LicenseScreen
+import ch.hades.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.extensions.launchViewIntent
+import ch.hades.commons.helpers.*
+import ch.hades.commons.models.License
 import kotlinx.collections.immutable.toImmutableList
 
 class LicenseActivity : ComponentActivity() {

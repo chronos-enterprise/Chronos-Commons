@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.compose.theme
+package ch.hades.commons.compose.theme
 
 import android.content.Context
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import com.simplemobiletools.commons.compose.extensions.config
-import com.simplemobiletools.commons.compose.theme.model.Theme
-import com.simplemobiletools.commons.extensions.getProperTextColor
-import com.simplemobiletools.commons.extensions.isBlackAndWhiteTheme
-import com.simplemobiletools.commons.extensions.isWhiteTheme
+import ch.hades.commons.compose.extensions.config
+import ch.hades.commons.compose.theme.model.Theme
+import ch.hades.commons.extensions.getProperTextColor
+import ch.hades.commons.extensions.isBlackAndWhiteTheme
+import ch.hades.commons.extensions.isWhiteTheme
 
 fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou): Theme {
     val baseConfig = context.config

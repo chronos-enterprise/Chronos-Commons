@@ -1,14 +1,14 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.widget.LinearLayout
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.isRTLLayout
-import com.simplemobiletools.commons.extensions.onGlobalLayout
-import com.simplemobiletools.commons.interfaces.LineColorPickerListener
+import ch.hades.commons.R
+import ch.hades.commons.extensions.isRTLLayout
+import ch.hades.commons.extensions.onGlobalLayout
+import ch.hades.commons.interfaces.LineColorPickerListener
 import java.util.*
 
 class LineColorPicker(context: Context, attrs: AttributeSet) : LinearLayout(context, attrs) {

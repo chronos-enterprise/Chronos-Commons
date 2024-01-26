@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.adapters
+package ch.hades.commons.adapters
 
 import android.util.TypedValue
 import android.view.Menu
 import android.view.ViewGroup
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.FilepickerFavoriteBinding
-import com.simplemobiletools.commons.extensions.getTextSize
-import com.simplemobiletools.commons.views.MyRecyclerView
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.FilepickerFavoriteBinding
+import ch.hades.commons.extensions.getTextSize
+import ch.hades.commons.views.MyRecyclerView
 
 class FilepickerFavoritesAdapter(
     activity: BaseSimpleActivity, val paths: List<String>, recyclerView: MyRecyclerView,

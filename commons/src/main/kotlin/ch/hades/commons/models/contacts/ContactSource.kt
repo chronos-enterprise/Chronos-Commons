@@ -1,6 +1,6 @@
-package com.simplemobiletools.commons.models.contacts
+package ch.hades.commons.models.contacts
 
-import com.simplemobiletools.commons.helpers.SMT_PRIVATE
+import ch.hades.commons.helpers.SMT_PRIVATE
 
 data class ContactSource(var name: String, var type: String, var publicName: String, var count: Int = 0) {
     fun getFullIdentifier(): String {

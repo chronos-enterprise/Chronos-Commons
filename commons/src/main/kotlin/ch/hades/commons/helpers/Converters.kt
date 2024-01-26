@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.simplemobiletools.commons.models.PhoneNumber
-import com.simplemobiletools.commons.models.contacts.*
+import ch.hades.commons.models.PhoneNumber
+import ch.hades.commons.models.contacts.*
 import java.util.ArrayList
 
 class Converters {

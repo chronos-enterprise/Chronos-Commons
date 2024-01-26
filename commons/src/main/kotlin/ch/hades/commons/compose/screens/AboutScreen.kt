@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.screens
+package ch.hades.commons.compose.screens
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
@@ -7,14 +7,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.settings.SettingsGroup
-import com.simplemobiletools.commons.compose.settings.SettingsHorizontalDivider
-import com.simplemobiletools.commons.compose.settings.SettingsListItem
-import com.simplemobiletools.commons.compose.settings.SettingsTitleTextComponent
-import com.simplemobiletools.commons.compose.settings.scaffold.SettingsScaffold
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.settings.SettingsGroup
+import ch.hades.commons.compose.settings.SettingsHorizontalDivider
+import ch.hades.commons.compose.settings.SettingsListItem
+import ch.hades.commons.compose.settings.SettingsTitleTextComponent
+import ch.hades.commons.compose.settings.scaffold.SettingsScaffold
+import ch.hades.commons.compose.theme.AppThemeSurface
 
 private val startingTitlePadding = Modifier.padding(start = 58.dp)
 

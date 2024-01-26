@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package ch.hades.commons.compose.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable

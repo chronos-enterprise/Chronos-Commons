@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import androidx.viewpager.widget.ViewPager
 

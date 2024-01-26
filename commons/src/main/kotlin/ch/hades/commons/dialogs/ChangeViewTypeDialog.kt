@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogChangeViewTypeBinding
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.setupDialogStuff
-import com.simplemobiletools.commons.helpers.VIEW_TYPE_GRID
-import com.simplemobiletools.commons.helpers.VIEW_TYPE_LIST
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogChangeViewTypeBinding
+import ch.hades.commons.extensions.baseConfig
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.setupDialogStuff
+import ch.hades.commons.helpers.VIEW_TYPE_GRID
+import ch.hades.commons.helpers.VIEW_TYPE_LIST
 
 class ChangeViewTypeDialog(val activity: BaseSimpleActivity, val path: String = "", val callback: () -> Unit) {
     private var view: DialogChangeViewTypeBinding

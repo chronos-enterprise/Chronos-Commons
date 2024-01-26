@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.content.Context
 import android.os.Handler
@@ -7,8 +7,8 @@ import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.interfaces.RecyclerScrollCallback
+import ch.hades.commons.R
+import ch.hades.commons.interfaces.RecyclerScrollCallback
 
 // drag selection is based on https://github.com/afollestad/drag-select-recyclerview
 open class MyRecyclerView : RecyclerView {

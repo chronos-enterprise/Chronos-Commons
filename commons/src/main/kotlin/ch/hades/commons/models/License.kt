@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models
+package ch.hades.commons.models
 
 import androidx.compose.runtime.Immutable
 

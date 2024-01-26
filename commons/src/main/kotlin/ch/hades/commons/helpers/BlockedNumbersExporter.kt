@@ -1,6 +1,6 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
-import com.simplemobiletools.commons.models.BlockedNumber
+import ch.hades.commons.models.BlockedNumber
 import java.io.OutputStream
 import java.util.ArrayList
 

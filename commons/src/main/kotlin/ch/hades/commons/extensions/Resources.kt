@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.content.res.Resources
 import android.graphics.Bitmap

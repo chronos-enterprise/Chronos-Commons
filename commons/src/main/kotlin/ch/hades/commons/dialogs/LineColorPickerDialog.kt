@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.appbar.MaterialToolbar
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogLineColorPickerBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.interfaces.LineColorPickerListener
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogLineColorPickerBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.interfaces.LineColorPickerListener
 
 class LineColorPickerDialog(
     val activity: BaseSimpleActivity, val color: Int, val isPrimaryColorPicker: Boolean, val primaryColors: Int = R.array.md_primary_colors,

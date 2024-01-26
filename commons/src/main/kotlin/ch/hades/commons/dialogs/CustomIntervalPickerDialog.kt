@@ -1,16 +1,16 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import android.content.DialogInterface
 import android.view.KeyEvent
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogCustomIntervalPickerBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.DAY_SECONDS
-import com.simplemobiletools.commons.helpers.HOUR_SECONDS
-import com.simplemobiletools.commons.helpers.MINUTE_SECONDS
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogCustomIntervalPickerBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.DAY_SECONDS
+import ch.hades.commons.helpers.HOUR_SECONDS
+import ch.hades.commons.helpers.MINUTE_SECONDS
 
 class CustomIntervalPickerDialog(val activity: Activity, val selectedSeconds: Int = 0, val showSeconds: Boolean = false, val callback: (minutes: Int) -> Unit) {
     private var dialog: AlertDialog? = null

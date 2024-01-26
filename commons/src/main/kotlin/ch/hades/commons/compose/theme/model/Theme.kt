@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme.model
+package ch.hades.commons.compose.theme.model
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
@@ -7,10 +7,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.config
-import com.simplemobiletools.commons.compose.theme.isInDarkThemeAndSurfaceIsNotLitWell
-import com.simplemobiletools.commons.helpers.isSPlus
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.config
+import ch.hades.commons.compose.theme.isInDarkThemeAndSurfaceIsNotLitWell
+import ch.hades.commons.helpers.isSPlus
 
 @Stable
 sealed class Theme : CommonTheme {

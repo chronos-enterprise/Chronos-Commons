@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -11,11 +11,11 @@ import android.view.WindowManager
 import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogColorPickerBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.isQPlus
-import com.simplemobiletools.commons.views.ColorPickerSquare
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogColorPickerBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.isQPlus
+import ch.hades.commons.views.ColorPickerSquare
 import java.util.LinkedList
 
 private const val RECENT_COLORS_NUMBER = 5

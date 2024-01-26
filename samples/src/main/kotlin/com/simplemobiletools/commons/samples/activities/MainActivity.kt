@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.samples.activities
+package ch.hades.commons.samples.activities
 
 import android.os.Bundle
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.dialogs.BottomSheetChooserDialog
-import com.simplemobiletools.commons.extensions.appLaunched
-import com.simplemobiletools.commons.extensions.toast
-import com.simplemobiletools.commons.extensions.viewBinding
-import com.simplemobiletools.commons.helpers.LICENSE_AUTOFITTEXTVIEW
-import com.simplemobiletools.commons.models.FAQItem
-import com.simplemobiletools.commons.models.SimpleListItem
-import com.simplemobiletools.commons.samples.BuildConfig
-import com.simplemobiletools.commons.samples.R
-import com.simplemobiletools.commons.samples.databinding.ActivityMainBinding
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.dialogs.BottomSheetChooserDialog
+import ch.hades.commons.extensions.appLaunched
+import ch.hades.commons.extensions.toast
+import ch.hades.commons.extensions.viewBinding
+import ch.hades.commons.helpers.LICENSE_AUTOFITTEXTVIEW
+import ch.hades.commons.models.FAQItem
+import ch.hades.commons.models.SimpleListItem
+import ch.hades.commons.samples.BuildConfig
+import ch.hades.commons.samples.R
+import ch.hades.commons.samples.databinding.ActivityMainBinding
 
 class MainActivity : BaseSimpleActivity() {
     override fun getAppLauncherName() = getString(R.string.smtco_app_name)
@@ -44,14 +44,14 @@ class MainActivity : BaseSimpleActivity() {
         val licenses = LICENSE_AUTOFITTEXTVIEW
 
         val faqItems = arrayListOf(
-            FAQItem(com.simplemobiletools.commons.R.string.faq_1_title_commons, com.simplemobiletools.commons.R.string.faq_1_text_commons),
-            FAQItem(com.simplemobiletools.commons.R.string.faq_1_title_commons, com.simplemobiletools.commons.R.string.faq_1_text_commons),
-            FAQItem(com.simplemobiletools.commons.R.string.faq_4_title_commons, com.simplemobiletools.commons.R.string.faq_4_text_commons)
+            FAQItem(ch.hades.commons.R.string.faq_1_title_commons, ch.hades.commons.R.string.faq_1_text_commons),
+            FAQItem(ch.hades.commons.R.string.faq_1_title_commons, ch.hades.commons.R.string.faq_1_text_commons),
+            FAQItem(ch.hades.commons.R.string.faq_4_title_commons, ch.hades.commons.R.string.faq_4_text_commons)
         )
 
-        if (!resources.getBoolean(com.simplemobiletools.commons.R.bool.hide_google_relations)) {
-            faqItems.add(FAQItem(com.simplemobiletools.commons.R.string.faq_2_title_commons, com.simplemobiletools.commons.R.string.faq_2_text_commons))
-            faqItems.add(FAQItem(com.simplemobiletools.commons.R.string.faq_6_title_commons, com.simplemobiletools.commons.R.string.faq_6_text_commons))
+        if (!resources.getBoolean(ch.hades.commons.R.bool.hide_google_relations)) {
+            faqItems.add(FAQItem(ch.hades.commons.R.string.faq_2_title_commons, ch.hades.commons.R.string.faq_2_text_commons))
+            faqItems.add(FAQItem(ch.hades.commons.R.string.faq_6_title_commons, ch.hades.commons.R.string.faq_6_text_commons))
         }
 
         startAboutActivity(R.string.smtco_app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
@@ -60,16 +60,16 @@ class MainActivity : BaseSimpleActivity() {
     private fun launchBottomSheetDemo() {
         BottomSheetChooserDialog.createChooser(
             fragmentManager = supportFragmentManager,
-            title = com.simplemobiletools.commons.R.string.please_select_destination,
+            title = ch.hades.commons.R.string.please_select_destination,
             items = arrayOf(
-                SimpleListItem(1, com.simplemobiletools.commons.R.string.record_video, com.simplemobiletools.commons.R.drawable.ic_camera_vector),
+                SimpleListItem(1, ch.hades.commons.R.string.record_video, ch.hades.commons.R.drawable.ic_camera_vector),
                 SimpleListItem(
                     2,
-                    com.simplemobiletools.commons.R.string.record_audio,
-                    com.simplemobiletools.commons.R.drawable.ic_microphone_vector,
+                    ch.hades.commons.R.string.record_audio,
+                    ch.hades.commons.R.drawable.ic_microphone_vector,
                     selected = true
                 ),
-                SimpleListItem(4, com.simplemobiletools.commons.R.string.choose_contact, com.simplemobiletools.commons.R.drawable.ic_add_person_vector)
+                SimpleListItem(4, ch.hades.commons.R.string.choose_contact, ch.hades.commons.R.drawable.ic_add_person_vector)
             )
         ) {
             toast("Clicked ${it.id}")

@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogRenameItemsBinding
-import com.simplemobiletools.commons.extensions.*
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogRenameItemsBinding
+import ch.hades.commons.extensions.*
 
 // used at renaming folders
 class RenameItemsDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val callback: () -> Unit) {

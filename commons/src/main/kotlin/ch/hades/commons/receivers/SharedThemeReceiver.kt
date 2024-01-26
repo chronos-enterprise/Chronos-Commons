@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.receivers
+package ch.hades.commons.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.checkAppIconColor
-import com.simplemobiletools.commons.extensions.getSharedTheme
-import com.simplemobiletools.commons.helpers.MyContentProvider
+import ch.hades.commons.extensions.baseConfig
+import ch.hades.commons.extensions.checkAppIconColor
+import ch.hades.commons.extensions.getSharedTheme
+import ch.hades.commons.helpers.MyContentProvider
 
 class SharedThemeReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

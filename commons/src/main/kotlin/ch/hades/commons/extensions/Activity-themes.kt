@@ -1,9 +1,9 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.app.Activity
 import android.graphics.Color
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.DARK_GREY
+import ch.hades.commons.R
+import ch.hades.commons.helpers.DARK_GREY
 
 fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false) = when {
     baseConfig.isUsingSystemTheme -> if (isUsingSystemDarkTheme()) R.style.AppTheme_Base_System else R.style.AppTheme_Base_System_Light

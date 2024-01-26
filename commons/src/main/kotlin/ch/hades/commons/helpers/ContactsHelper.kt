@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import android.accounts.Account
 import android.accounts.AccountManager
@@ -12,11 +12,11 @@ import android.provider.ContactsContract.*
 import android.provider.MediaStore
 import android.text.TextUtils
 import android.util.SparseArray
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.models.PhoneNumber
-import com.simplemobiletools.commons.models.contacts.*
-import com.simplemobiletools.commons.overloads.times
+import ch.hades.commons.R
+import ch.hades.commons.extensions.*
+import ch.hades.commons.models.PhoneNumber
+import ch.hades.commons.models.contacts.*
+import ch.hades.commons.overloads.times
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.OutputStream

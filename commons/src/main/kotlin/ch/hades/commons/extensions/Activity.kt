@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -35,14 +35,14 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.documentfile.provider.DocumentFile
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogTitleBinding
-import com.simplemobiletools.commons.dialogs.*
-import com.simplemobiletools.commons.dialogs.WritePermissionDialog.Mode
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.*
-import com.simplemobiletools.commons.views.MyTextView
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogTitleBinding
+import ch.hades.commons.dialogs.*
+import ch.hades.commons.dialogs.WritePermissionDialog.Mode
+import ch.hades.commons.helpers.*
+import ch.hades.commons.models.*
+import ch.hades.commons.views.MyTextView
 import java.io.*
 import java.util.*
 

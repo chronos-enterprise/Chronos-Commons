@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.models
+package ch.hades.commons.models
 
 import android.content.Context
 import android.net.Uri
 import android.provider.MediaStore
 import com.bumptech.glide.signature.ObjectKey
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.*
 import java.io.File
 
 open class FileDirItem(

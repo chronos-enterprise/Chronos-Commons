@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package ch.hades.commons.compose.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -11,10 +11,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
-import com.simplemobiletools.commons.compose.extensions.config
-import com.simplemobiletools.commons.compose.theme.model.Theme
-import com.simplemobiletools.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
-import com.simplemobiletools.commons.helpers.isSPlus
+import ch.hades.commons.compose.extensions.config
+import ch.hades.commons.compose.theme.model.Theme
+import ch.hades.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
+import ch.hades.commons.helpers.isSPlus
 
 @Composable
 internal fun Theme(

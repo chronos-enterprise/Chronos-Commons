@@ -1,14 +1,14 @@
-package com.simplemobiletools.commons.compose.theme
+package ch.hades.commons.compose.theme
 
 import android.app.Activity
 import android.app.ActivityManager
 import android.content.Context
 import android.graphics.BitmapFactory
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.getActivity
-import com.simplemobiletools.commons.helpers.APP_ICON_IDS
-import com.simplemobiletools.commons.helpers.APP_LAUNCHER_NAME
-import com.simplemobiletools.commons.helpers.BaseConfig
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.getActivity
+import ch.hades.commons.helpers.APP_ICON_IDS
+import ch.hades.commons.helpers.APP_LAUNCHER_NAME
+import ch.hades.commons.helpers.BaseConfig
 
 fun Activity.getAppIconIds(): ArrayList<Int> = ArrayList(intent.getIntegerArrayListExtra(APP_ICON_IDS).orEmpty())
 fun Activity.getAppLauncherName(): String = intent.getStringExtra(APP_LAUNCHER_NAME).orEmpty()

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,12 +10,12 @@ import androidx.biometric.auth.AuthPromptHost
 import com.andrognito.patternlockview.PatternLockView
 import com.andrognito.patternlockview.listener.PatternLockViewListener
 import com.andrognito.patternlockview.utils.PatternLockUtils
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.TabPatternBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.PROTECTION_PATTERN
-import com.simplemobiletools.commons.interfaces.HashListener
-import com.simplemobiletools.commons.interfaces.SecurityTab
+import ch.hades.commons.R
+import ch.hades.commons.databinding.TabPatternBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.PROTECTION_PATTERN
+import ch.hades.commons.interfaces.HashListener
+import ch.hades.commons.interfaces.SecurityTab
 
 class PatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), SecurityTab {
     private var hash = ""

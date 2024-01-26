@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views.bottomactionmenu
+package ch.hades.commons.views.bottomactionmenu
 
 interface BottomActionMenuCallback {
     fun onItemClicked(item: BottomActionMenuItem) {}

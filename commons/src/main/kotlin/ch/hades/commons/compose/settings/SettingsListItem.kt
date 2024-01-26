@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings
+package ch.hades.commons.compose.settings
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -18,10 +18,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.BooleanPreviewParameterProvider
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.BooleanPreviewParameterProvider
+import ch.hades.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.theme.AppThemeSurface
 
 @Composable
 fun SettingsListItem(

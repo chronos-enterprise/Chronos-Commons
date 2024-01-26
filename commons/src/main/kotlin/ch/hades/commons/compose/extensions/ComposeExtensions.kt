@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.extensions
+package ch.hades.commons.compose.extensions
 
 import android.app.Activity
 import android.content.Context
@@ -11,8 +11,8 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import com.simplemobiletools.commons.compose.theme.isLitWell
-import com.simplemobiletools.commons.extensions.darkenColor
+import ch.hades.commons.compose.theme.isLitWell
+import ch.hades.commons.extensions.darkenColor
 
 fun Context.getActivity(): Activity {
     return when (this) {

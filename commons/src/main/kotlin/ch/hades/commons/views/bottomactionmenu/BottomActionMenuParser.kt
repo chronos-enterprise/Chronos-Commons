@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.views.bottomactionmenu
+package ch.hades.commons.views.bottomactionmenu
 
 import android.content.Context
 import android.util.AttributeSet
 import android.util.Xml
 import android.view.MenuItem
 import android.view.View
-import com.simplemobiletools.commons.R
+import ch.hades.commons.R
 import org.xmlpull.v1.XmlPullParser
 
 internal class BottomActionMenuParser(private val context: Context) {

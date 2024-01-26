@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.models.contacts
+package ch.hades.commons.models.contacts
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import com.simplemobiletools.commons.helpers.FIRST_GROUP_ID
+import ch.hades.commons.helpers.FIRST_GROUP_ID
 import java.io.Serializable
 
 @kotlinx.serialization.Serializable

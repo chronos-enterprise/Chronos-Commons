@@ -1,14 +1,14 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogRadioGroupBinding
-import com.simplemobiletools.commons.databinding.RadioButtonBinding
-import com.simplemobiletools.commons.extensions.*
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogRadioGroupBinding
+import ch.hades.commons.databinding.RadioButtonBinding
+import ch.hades.commons.extensions.*
 
 /**
  * A dialog for choosing between internal, root, SD card (optional) storage

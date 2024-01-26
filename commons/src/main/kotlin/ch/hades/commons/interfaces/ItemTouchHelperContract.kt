@@ -1,6 +1,6 @@
-package com.simplemobiletools.commons.interfaces
+package ch.hades.commons.interfaces
 
-import com.simplemobiletools.commons.adapters.MyRecyclerViewAdapter
+import ch.hades.commons.adapters.MyRecyclerViewAdapter
 
 interface ItemTouchHelperContract {
     fun onRowMoved(fromPosition: Int, toPosition: Int)

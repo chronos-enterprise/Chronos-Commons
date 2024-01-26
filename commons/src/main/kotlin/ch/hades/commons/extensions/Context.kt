@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -42,10 +42,10 @@ import androidx.loader.content.CursorLoader
 import com.github.ajalt.reprint.core.Reprint
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.AlarmSound
-import com.simplemobiletools.commons.models.BlockedNumber
+import ch.hades.commons.R
+import ch.hades.commons.helpers.*
+import ch.hades.commons.models.AlarmSound
+import ch.hades.commons.models.BlockedNumber
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings.scaffold
+package ch.hades.commons.compose.settings.scaffold
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -17,9 +17,9 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.theme.AppThemeSurface
 
 @Composable
 internal fun SettingsScaffoldTopBar(

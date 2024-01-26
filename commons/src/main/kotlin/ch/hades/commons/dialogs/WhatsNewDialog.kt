@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import android.view.LayoutInflater
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogWhatsNewBinding
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.setupDialogStuff
-import com.simplemobiletools.commons.models.Release
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogWhatsNewBinding
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.setupDialogStuff
+import ch.hades.commons.models.Release
 
 class WhatsNewDialog(val activity: Activity, val releases: List<Release>) {
     init {

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package ch.hades.commons.compose.theme
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
@@ -8,7 +8,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
-import com.simplemobiletools.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
+import ch.hades.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
 
 @Composable
 fun AppThemeSurface(

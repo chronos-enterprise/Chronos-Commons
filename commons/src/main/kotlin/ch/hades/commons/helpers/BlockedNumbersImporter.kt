@@ -1,9 +1,9 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import android.telephony.PhoneNumberUtils
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.extensions.addBlockedNumber
-import com.simplemobiletools.commons.extensions.showErrorToast
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.extensions.addBlockedNumber
+import ch.hades.commons.extensions.showErrorToast
 import java.io.File
 
 class BlockedNumbersImporter(

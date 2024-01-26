@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogAddBlockedNumberBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.models.BlockedNumber
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogAddBlockedNumberBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.models.BlockedNumber
 
 class AddBlockedNumberDialog(val activity: BaseSimpleActivity, val originalNumber: BlockedNumber? = null, val callback: () -> Unit) {
     init {

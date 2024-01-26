@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import android.view.View
@@ -6,12 +6,12 @@ import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogRadioGroupBinding
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.onGlobalLayout
-import com.simplemobiletools.commons.extensions.setupDialogStuff
-import com.simplemobiletools.commons.models.RadioItem
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogRadioGroupBinding
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.onGlobalLayout
+import ch.hades.commons.extensions.setupDialogStuff
+import ch.hades.commons.models.RadioItem
 
 class RadioGroupDialog(
     val activity: Activity, val items: ArrayList<RadioItem>, val checkedItemId: Int = -1, val titleId: Int = 0,

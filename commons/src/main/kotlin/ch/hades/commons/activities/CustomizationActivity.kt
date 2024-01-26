@@ -1,18 +1,18 @@
-package com.simplemobiletools.commons.activities
+package ch.hades.commons.activities
 
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.LayerDrawable
 import android.graphics.drawable.RippleDrawable
 import android.os.Bundle
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.ActivityCustomizationBinding
-import com.simplemobiletools.commons.dialogs.*
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.MyTheme
-import com.simplemobiletools.commons.models.RadioItem
-import com.simplemobiletools.commons.models.SharedTheme
+import ch.hades.commons.R
+import ch.hades.commons.databinding.ActivityCustomizationBinding
+import ch.hades.commons.dialogs.*
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.*
+import ch.hades.commons.models.MyTheme
+import ch.hades.commons.models.RadioItem
+import ch.hades.commons.models.SharedTheme
 
 class CustomizationActivity : BaseSimpleActivity() {
     private val THEME_LIGHT = 0

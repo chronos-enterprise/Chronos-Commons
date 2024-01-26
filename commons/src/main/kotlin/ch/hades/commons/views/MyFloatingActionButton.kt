@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.simplemobiletools.commons.extensions.applyColorFilter
-import com.simplemobiletools.commons.extensions.getContrastColor
+import ch.hades.commons.extensions.applyColorFilter
+import ch.hades.commons.extensions.getContrastColor
 
 class MyFloatingActionButton : FloatingActionButton {
     constructor(context: Context) : super(context)

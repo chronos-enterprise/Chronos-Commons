@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogPropertiesBinding
-import com.simplemobiletools.commons.databinding.ItemPropertyBinding
-import com.simplemobiletools.commons.extensions.copyToClipboard
-import com.simplemobiletools.commons.extensions.getProperTextColor
-import com.simplemobiletools.commons.extensions.showLocationOnMap
-import com.simplemobiletools.commons.extensions.value
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogPropertiesBinding
+import ch.hades.commons.databinding.ItemPropertyBinding
+import ch.hades.commons.extensions.copyToClipboard
+import ch.hades.commons.extensions.getProperTextColor
+import ch.hades.commons.extensions.showLocationOnMap
+import ch.hades.commons.extensions.value
 
 abstract class BasePropertiesDialog(activity: Activity) {
     protected val mInflater: LayoutInflater

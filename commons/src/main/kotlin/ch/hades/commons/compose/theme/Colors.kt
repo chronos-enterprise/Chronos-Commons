@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package ch.hades.commons.compose.theme
 
 import androidx.compose.ui.graphics.Color
 

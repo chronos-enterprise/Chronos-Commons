@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import android.database.Cursor
 import android.database.MatrixCursor
 import android.database.MergeCursor
 import android.net.Uri
 import android.provider.DocumentsContract
-import com.simplemobiletools.commons.extensions.getStringValue
+import ch.hades.commons.extensions.getStringValue
 
 // On Android 11, ExternalStorageProvider no longer returns Android/data and Android/obb as children
 // of the Android directory on primary storage. However, the two child directories are actually

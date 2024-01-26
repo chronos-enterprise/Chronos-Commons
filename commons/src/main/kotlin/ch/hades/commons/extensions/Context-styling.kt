@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -8,10 +8,10 @@ import android.content.res.Configuration
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.loader.content.CursorLoader
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.SharedTheme
-import com.simplemobiletools.commons.views.*
+import ch.hades.commons.R
+import ch.hades.commons.helpers.*
+import ch.hades.commons.models.SharedTheme
+import ch.hades.commons.views.*
 
 // handle system default theme (Material You) specially as the color is taken from the system, not hardcoded by us
 fun Context.getProperTextColor() = if (baseConfig.isUsingSystemTheme) {

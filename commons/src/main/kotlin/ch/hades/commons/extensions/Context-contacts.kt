@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.content.Context
 import android.content.Intent
@@ -7,19 +7,19 @@ import android.net.Uri
 import android.os.Handler
 import android.os.Looper
 import android.provider.ContactsContract
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databases.ContactsDatabase
-import com.simplemobiletools.commons.dialogs.CallConfirmationDialog
-import com.simplemobiletools.commons.dialogs.RadioGroupDialog
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.interfaces.ContactsDao
-import com.simplemobiletools.commons.interfaces.GroupsDao
-import com.simplemobiletools.commons.models.RadioItem
-import com.simplemobiletools.commons.models.contacts.Contact
-import com.simplemobiletools.commons.models.contacts.ContactSource
-import com.simplemobiletools.commons.models.contacts.Organization
-import com.simplemobiletools.commons.models.contacts.SocialAction
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databases.ContactsDatabase
+import ch.hades.commons.dialogs.CallConfirmationDialog
+import ch.hades.commons.dialogs.RadioGroupDialog
+import ch.hades.commons.helpers.*
+import ch.hades.commons.interfaces.ContactsDao
+import ch.hades.commons.interfaces.GroupsDao
+import ch.hades.commons.models.RadioItem
+import ch.hades.commons.models.contacts.Contact
+import ch.hades.commons.models.contacts.ContactSource
+import ch.hades.commons.models.contacts.Organization
+import ch.hades.commons.models.contacts.SocialAction
 import java.io.File
 
 val Context.contactsDB: ContactsDao get() = ContactsDatabase.getInstance(applicationContext).ContactsDao()

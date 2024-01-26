@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogExportSettingsBinding
-import com.simplemobiletools.commons.extensions.*
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogExportSettingsBinding
+import ch.hades.commons.extensions.*
 
 class ExportSettingsDialog(
     val activity: BaseSimpleActivity, val defaultFilename: String, val hidePath: Boolean,

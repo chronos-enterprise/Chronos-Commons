@@ -1,16 +1,16 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.app.Activity
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import com.google.android.material.appbar.AppBarLayout
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.MenuSearchBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.LOWER_ALPHA
-import com.simplemobiletools.commons.helpers.MEDIUM_ALPHA
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.MenuSearchBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.LOWER_ALPHA
+import ch.hades.commons.helpers.MEDIUM_ALPHA
 
 class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(context, attrs) {
     var isSearchOpen = false

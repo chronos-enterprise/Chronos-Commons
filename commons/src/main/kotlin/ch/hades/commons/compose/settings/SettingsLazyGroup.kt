@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings
+package ch.hades.commons.compose.settings
 
 import androidx.compose.foundation.gestures.FlingBehavior
 import androidx.compose.foundation.gestures.ScrollableDefaults
@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.extensions.MyDevices
 
 @Composable
 fun SettingsLazyGroup(

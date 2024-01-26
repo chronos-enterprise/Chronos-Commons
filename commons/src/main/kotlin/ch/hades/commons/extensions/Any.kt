@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 // extensions used mostly at importing app settings for now
 fun Any.toBoolean() = toString() == "true"

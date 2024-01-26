@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme.model
+package ch.hades.commons.compose.theme.model
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models
+package ch.hades.commons.models
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

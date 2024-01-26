@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.getStoreUrl
-import com.simplemobiletools.commons.extensions.launchViewIntent
+import ch.hades.commons.R
+import ch.hades.commons.extensions.getStoreUrl
+import ch.hades.commons.extensions.launchViewIntent
 
 class RateUsDialog(val activity: Activity) {
 

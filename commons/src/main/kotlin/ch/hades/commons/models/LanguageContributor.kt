@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models
+package ch.hades.commons.models
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

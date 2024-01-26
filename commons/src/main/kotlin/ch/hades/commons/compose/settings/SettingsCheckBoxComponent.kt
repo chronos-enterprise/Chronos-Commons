@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings
+package ch.hades.commons.compose.settings
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.LocalIndication
@@ -15,12 +15,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.NoRippleTheme
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.preferenceSummaryColor
-import com.simplemobiletools.commons.compose.theme.preferenceTitleColor
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.extensions.NoRippleTheme
+import ch.hades.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.compose.theme.preferenceSummaryColor
+import ch.hades.commons.compose.theme.preferenceTitleColor
 
 @Composable
 fun SettingsCheckBoxComponent(

@@ -1,18 +1,18 @@
-package com.simplemobiletools.commons.samples.activities
+package ch.hades.commons.samples.activities
 
 import android.annotation.SuppressLint
 import android.view.*
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.adapters.MyRecyclerViewAdapter
-import com.simplemobiletools.commons.extensions.beVisibleIf
-import com.simplemobiletools.commons.interfaces.ItemMoveCallback
-import com.simplemobiletools.commons.interfaces.ItemTouchHelperContract
-import com.simplemobiletools.commons.interfaces.StartReorderDragListener
-import com.simplemobiletools.commons.samples.databinding.ListItemBinding
-import com.simplemobiletools.commons.views.MyRecyclerView
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.adapters.MyRecyclerViewAdapter
+import ch.hades.commons.extensions.beVisibleIf
+import ch.hades.commons.interfaces.ItemMoveCallback
+import ch.hades.commons.interfaces.ItemTouchHelperContract
+import ch.hades.commons.interfaces.StartReorderDragListener
+import ch.hades.commons.samples.databinding.ListItemBinding
+import ch.hades.commons.views.MyRecyclerView
 import java.util.*
 
 class StringsAdapter(
@@ -36,7 +36,7 @@ class StringsAdapter(
         }
     }
 
-    override fun getActionMenuId() = com.simplemobiletools.commons.R.menu.cab_delete_only
+    override fun getActionMenuId() = ch.hades.commons.R.menu.cab_delete_only
 
     override fun prepareActionMode(menu: Menu) {}
 
@@ -46,7 +46,7 @@ class StringsAdapter(
         }
 
         when (id) {
-            com.simplemobiletools.commons.R.id.cab_delete -> changeOrder()
+            ch.hades.commons.R.id.cab_delete -> changeOrder()
         }
     }
 

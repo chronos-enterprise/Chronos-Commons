@@ -1,14 +1,14 @@
-package com.simplemobiletools.commons.adapters
+package ch.hades.commons.adapters
 
 import android.view.*
 import android.widget.PopupMenu
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.ItemManageBlockedNumberBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.interfaces.RefreshRecyclerViewListener
-import com.simplemobiletools.commons.models.BlockedNumber
-import com.simplemobiletools.commons.views.MyRecyclerView
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.ItemManageBlockedNumberBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.interfaces.RefreshRecyclerViewListener
+import ch.hades.commons.models.BlockedNumber
+import ch.hades.commons.views.MyRecyclerView
 
 class ManageBlockedNumbersAdapter(
     activity: BaseSimpleActivity, var blockedNumbers: ArrayList<BlockedNumber>, val listener: RefreshRecyclerViewListener?,

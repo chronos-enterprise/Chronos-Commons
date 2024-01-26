@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.extensions
+package ch.hades.commons.compose.extensions
 
 import android.content.res.Configuration
 import androidx.compose.ui.tooling.preview.Devices

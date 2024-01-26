@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package ch.hades.commons.activities
 
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
@@ -39,15 +39,15 @@ import androidx.core.view.ScrollingView
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.asynctasks.CopyMoveTask
-import com.simplemobiletools.commons.dialogs.*
-import com.simplemobiletools.commons.dialogs.WritePermissionDialog.Mode
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.interfaces.CopyMoveListener
-import com.simplemobiletools.commons.models.FAQItem
-import com.simplemobiletools.commons.models.FileDirItem
+import ch.hades.commons.R
+import ch.hades.commons.asynctasks.CopyMoveTask
+import ch.hades.commons.dialogs.*
+import ch.hades.commons.dialogs.WritePermissionDialog.Mode
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.*
+import ch.hades.commons.interfaces.CopyMoveListener
+import ch.hades.commons.models.FAQItem
+import ch.hades.commons.models.FileDirItem
 import java.io.File
 import java.io.OutputStream
 import java.util.regex.Pattern

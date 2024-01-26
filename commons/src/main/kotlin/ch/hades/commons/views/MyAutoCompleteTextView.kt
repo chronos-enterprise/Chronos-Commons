@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.AutoCompleteTextView
-import com.simplemobiletools.commons.extensions.adjustAlpha
-import com.simplemobiletools.commons.extensions.applyColorFilter
+import ch.hades.commons.extensions.adjustAlpha
+import ch.hades.commons.extensions.applyColorFilter
 
 class MyAutoCompleteTextView : AutoCompleteTextView {
     constructor(context: Context) : super(context)

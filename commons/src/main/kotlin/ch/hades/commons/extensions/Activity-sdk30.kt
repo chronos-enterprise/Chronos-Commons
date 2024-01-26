@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.content.ContentValues
 import android.provider.MediaStore
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.models.FileDirItem
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.models.FileDirItem
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream

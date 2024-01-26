@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.content.Context
 import android.view.HapticFeedbackConstants
 import android.view.View
 import android.view.ViewTreeObserver
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.SHORT_ANIMATION_DURATION
+import ch.hades.commons.R
+import ch.hades.commons.helpers.SHORT_ANIMATION_DURATION
 
 fun View.beInvisibleIf(beInvisible: Boolean) = if (beInvisible) beInvisible() else beVisible()
 

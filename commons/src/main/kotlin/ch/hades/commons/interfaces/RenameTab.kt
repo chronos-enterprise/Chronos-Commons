@@ -1,6 +1,6 @@
-package com.simplemobiletools.commons.interfaces
+package ch.hades.commons.interfaces
 
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
+import ch.hades.commons.activities.BaseSimpleActivity
 
 interface RenameTab {
     fun initTab(activity: BaseSimpleActivity, paths: ArrayList<String>)

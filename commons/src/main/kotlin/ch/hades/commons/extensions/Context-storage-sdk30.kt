@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.content.Context
 import android.net.Uri
@@ -6,10 +6,10 @@ import android.os.Environment
 import android.provider.DocumentsContract
 import android.provider.MediaStore
 import androidx.documentfile.provider.DocumentFile
-import com.simplemobiletools.commons.helpers.EXTERNAL_STORAGE_PROVIDER_AUTHORITY
-import com.simplemobiletools.commons.helpers.isRPlus
-import com.simplemobiletools.commons.helpers.isSPlus
-import com.simplemobiletools.commons.models.FileDirItem
+import ch.hades.commons.helpers.EXTERNAL_STORAGE_PROVIDER_AUTHORITY
+import ch.hades.commons.helpers.isRPlus
+import ch.hades.commons.helpers.isSPlus
+import ch.hades.commons.models.FileDirItem
 import java.io.File
 
 private const val DOWNLOAD_DIR = "Download"

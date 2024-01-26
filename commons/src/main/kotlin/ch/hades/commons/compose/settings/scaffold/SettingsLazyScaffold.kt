@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings.scaffold
+package ch.hades.commons.compose.settings.scaffold
 
 import androidx.compose.foundation.gestures.FlingBehavior
 import androidx.compose.foundation.gestures.ScrollableDefaults
@@ -23,8 +23,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.theme.AppThemeSurface
 
 @Composable
 fun SettingsLazyScaffold(

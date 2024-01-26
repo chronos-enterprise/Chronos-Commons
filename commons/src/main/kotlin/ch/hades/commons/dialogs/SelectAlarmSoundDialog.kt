@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -9,14 +9,14 @@ import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogSelectAlarmSoundBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.SILENT
-import com.simplemobiletools.commons.models.AlarmSound
-import com.simplemobiletools.commons.models.RadioItem
-import com.simplemobiletools.commons.views.MyCompatRadioButton
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.databinding.DialogSelectAlarmSoundBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.SILENT
+import ch.hades.commons.models.AlarmSound
+import ch.hades.commons.models.RadioItem
+import ch.hades.commons.views.MyCompatRadioButton
 
 class SelectAlarmSoundDialog(
     val activity: BaseSimpleActivity, val currentUri: String, val audioStream: Int, val pickAudioIntentId: Int,

@@ -1,7 +1,7 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.app.Application
-import com.simplemobiletools.commons.helpers.isNougatPlus
+import ch.hades.commons.helpers.isNougatPlus
 import java.util.*
 
 fun Application.checkUseEnglish() {

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings
+package ch.hades.commons.compose.settings
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -10,8 +10,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.theme.AppThemeSurface
 
 @Composable
 fun SettingsTitleTextComponent(
@@ -26,7 +26,7 @@ fun SettingsTitleTextComponent(
                 .padding(horizontal = 4.dp),
             color = color,
             fontSize = with(LocalDensity.current) {
-                dimensionResource(id = com.simplemobiletools.commons.R.dimen.normal_text_size).toSp()
+                dimensionResource(id = ch.hades.commons.R.dimen.normal_text_size).toSp()
             },
         )
     }

@@ -1,16 +1,16 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.view.LayoutInflater
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.adapters.RenameAdapter
-import com.simplemobiletools.commons.databinding.DialogRenameBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.RENAME_PATTERN
-import com.simplemobiletools.commons.helpers.RENAME_SIMPLE
-import com.simplemobiletools.commons.views.MyViewPager
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.adapters.RenameAdapter
+import ch.hades.commons.databinding.DialogRenameBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.RENAME_PATTERN
+import ch.hades.commons.helpers.RENAME_SIMPLE
+import ch.hades.commons.views.MyViewPager
 
 class RenameDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val useMediaFileExtension: Boolean, val callback: () -> Unit) {
     var dialog: AlertDialog? = null

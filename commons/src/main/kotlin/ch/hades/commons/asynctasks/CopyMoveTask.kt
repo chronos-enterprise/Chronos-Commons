@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.asynctasks
+package ch.hades.commons.asynctasks
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -9,15 +9,15 @@ import android.provider.MediaStore
 import androidx.core.app.NotificationCompat
 import androidx.core.util.Pair
 import androidx.documentfile.provider.DocumentFile
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.CONFLICT_KEEP_BOTH
-import com.simplemobiletools.commons.helpers.CONFLICT_SKIP
-import com.simplemobiletools.commons.helpers.getConflictResolution
-import com.simplemobiletools.commons.helpers.isOreoPlus
-import com.simplemobiletools.commons.interfaces.CopyMoveListener
-import com.simplemobiletools.commons.models.FileDirItem
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.CONFLICT_KEEP_BOTH
+import ch.hades.commons.helpers.CONFLICT_SKIP
+import ch.hades.commons.helpers.getConflictResolution
+import ch.hades.commons.helpers.isOreoPlus
+import ch.hades.commons.interfaces.CopyMoveListener
+import ch.hades.commons.models.FileDirItem
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream

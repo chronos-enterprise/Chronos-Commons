@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import android.net.Uri
 import android.provider.ContactsContract.CommonDataKinds
@@ -7,13 +7,13 @@ import android.provider.ContactsContract.CommonDataKinds.Im
 import android.provider.ContactsContract.CommonDataKinds.Phone
 import android.provider.ContactsContract.CommonDataKinds.StructuredPostal
 import android.provider.MediaStore
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.extensions.getByteArray
-import com.simplemobiletools.commons.extensions.getDateTimeFromDateString
-import com.simplemobiletools.commons.extensions.showErrorToast
-import com.simplemobiletools.commons.extensions.toast
-import com.simplemobiletools.commons.models.contacts.Contact
+import ch.hades.commons.R
+import ch.hades.commons.activities.BaseSimpleActivity
+import ch.hades.commons.extensions.getByteArray
+import ch.hades.commons.extensions.getDateTimeFromDateString
+import ch.hades.commons.extensions.showErrorToast
+import ch.hades.commons.extensions.toast
+import ch.hades.commons.models.contacts.Contact
 import ezvcard.Ezvcard
 import ezvcard.VCard
 import ezvcard.VCardVersion

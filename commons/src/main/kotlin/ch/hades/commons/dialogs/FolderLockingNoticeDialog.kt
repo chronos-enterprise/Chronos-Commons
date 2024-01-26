@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogTextviewBinding
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.setupDialogStuff
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogTextviewBinding
+import ch.hades.commons.extensions.baseConfig
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.setupDialogStuff
 
 class FolderLockingNoticeDialog(val activity: Activity, val callback: () -> Unit) {
     init {

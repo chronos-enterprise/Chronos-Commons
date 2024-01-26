@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package ch.hades.commons.activities
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -16,15 +16,15 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.net.toUri
 import androidx.core.view.WindowCompat
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.AdjustNavigationBarColors
-import com.simplemobiletools.commons.compose.extensions.TransparentSystemBars
-import com.simplemobiletools.commons.compose.screens.*
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.dialogs.ConfirmationAdvancedDialog
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FAQItem
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.AdjustNavigationBarColors
+import ch.hades.commons.compose.extensions.TransparentSystemBars
+import ch.hades.commons.compose.screens.*
+import ch.hades.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.dialogs.ConfirmationAdvancedDialog
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.*
+import ch.hades.commons.models.FAQItem
 
 class AboutActivity : ComponentActivity() {
     private val appName get() = intent.getStringExtra(APP_NAME) ?: ""
@@ -51,6 +51,9 @@ class AboutActivity : ComponentActivity() {
                 val showGoogleRelations = remember { !resources.getBoolean(R.bool.hide_google_relations) }
                 AboutScreen(
                     goBack = ::finish,
+
+                    /**
+
                     helpUsSection = {
                         val showHelpUsSection =
                             remember { showGoogleRelations || !showExternalLinks }
@@ -72,6 +75,9 @@ class AboutActivity : ComponentActivity() {
                             )
                         }
                     },
+
+                    */
+
                     otherSection = {
                         val showWebsite = remember { resources.getBoolean(R.bool.show_donate_in_about) && !showExternalLinks }
                         var version = intent.getStringExtra(APP_VERSION_NAME) ?: ""
@@ -81,13 +87,13 @@ class AboutActivity : ComponentActivity() {
                         val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }
 
                         OtherSection(
-                            showMoreApps = showGoogleRelations,
-                            onMoreAppsClick = ::launchMoreAppsFromUsIntent,
-                            showWebsite = showWebsite,
-                            onWebsiteClick = ::onWebsiteClick,
-                            showPrivacyPolicy = showExternalLinks,
-                            onPrivacyPolicyClick = ::onPrivacyPolicyClick,
-                            onLicenseClick = ::onLicenseClick,
+                            //showMoreApps = showGoogleRelations,
+                            //onMoreAppsClick = ::launchMoreAppsFromUsIntent,
+                            //showWebsite = showWebsite,
+                            //onWebsiteClick = ::onWebsiteClick,
+                            //showPrivacyPolicy = showExternalLinks,
+                            //onPrivacyPolicyClick = ::onPrivacyPolicyClick,
+                            //onLicenseClick = ::onLicenseClick,
                             version = fullVersion,
                             onVersionClick = ::onVersionClick
                         )

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings.scaffold
+package ch.hades.commons.compose.settings.scaffold
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -11,11 +11,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.platform.LocalLayoutDirection
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import com.simplemobiletools.commons.compose.extensions.onEventValue
-import com.simplemobiletools.commons.compose.theme.isNotLitWell
-import com.simplemobiletools.commons.compose.theme.isSurfaceLitWell
-import com.simplemobiletools.commons.extensions.getColoredMaterialStatusBarColor
-import com.simplemobiletools.commons.extensions.getContrastColor
+import ch.hades.commons.compose.extensions.onEventValue
+import ch.hades.commons.compose.theme.isNotLitWell
+import ch.hades.commons.compose.theme.isSurfaceLitWell
+import ch.hades.commons.extensions.getColoredMaterialStatusBarColor
+import ch.hades.commons.extensions.getContrastColor
 
 @Composable
 internal fun SystemUISettingsScaffoldStatusBarColor(scrolledColor: Color) {

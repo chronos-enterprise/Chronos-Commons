@@ -1,6 +1,6 @@
-package com.simplemobiletools.commons.compose.extensions
+package ch.hades.commons.compose.extensions
 
 import android.content.Context
-import com.simplemobiletools.commons.helpers.BaseConfig
+import ch.hades.commons.helpers.BaseConfig
 
 val Context.config: BaseConfig get() = BaseConfig.newInstance(applicationContext)

@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.interfaces
+package ch.hades.commons.interfaces
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.simplemobiletools.commons.models.contacts.Group
+import ch.hades.commons.models.contacts.Group
 
 @Dao
 interface GroupsDao {

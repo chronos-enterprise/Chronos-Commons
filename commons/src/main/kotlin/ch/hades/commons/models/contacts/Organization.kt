@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models.contacts
+package ch.hades.commons.models.contacts
 
 import kotlinx.serialization.Serializable
 

@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import android.content.Context
 import android.content.res.Configuration
 import android.os.Environment
 import android.text.format.DateFormat
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.getInternalStoragePath
-import com.simplemobiletools.commons.extensions.getSDCardPath
-import com.simplemobiletools.commons.extensions.getSharedPrefs
+import ch.hades.commons.R
+import ch.hades.commons.extensions.getInternalStoragePath
+import ch.hades.commons.extensions.getSDCardPath
+import ch.hades.commons.extensions.getSharedPrefs
 import java.text.SimpleDateFormat
 import java.util.*
 

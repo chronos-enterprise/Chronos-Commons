@@ -1,16 +1,16 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.RelativeLayout
 import androidx.biometric.auth.AuthPromptHost
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.TabPinBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.PROTECTION_PIN
-import com.simplemobiletools.commons.interfaces.HashListener
-import com.simplemobiletools.commons.interfaces.SecurityTab
+import ch.hades.commons.R
+import ch.hades.commons.databinding.TabPinBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.PROTECTION_PIN
+import ch.hades.commons.interfaces.HashListener
+import ch.hades.commons.interfaces.SecurityTab
 import java.math.BigInteger
 import java.security.MessageDigest
 import java.util.*

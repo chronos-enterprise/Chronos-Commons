@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.adapters
+package ch.hades.commons.adapters
 
 import android.app.Activity
 import android.view.View
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.ItemSimpleListBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.models.SimpleListItem
+import ch.hades.commons.R
+import ch.hades.commons.databinding.ItemSimpleListBinding
+import ch.hades.commons.extensions.*
+import ch.hades.commons.models.SimpleListItem
 
 open class SimpleListItemAdapter(val activity: Activity, val onItemClicked: (SimpleListItem) -> Unit) :
     ListAdapter<SimpleListItem, SimpleListItemAdapter.SimpleItemViewHolder>(SimpleListItemDiffCallback()) {

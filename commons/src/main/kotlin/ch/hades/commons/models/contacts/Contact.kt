@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.models.contacts
+package ch.hades.commons.models.contacts
 
 import android.graphics.Bitmap
 import android.provider.ContactsContract
 import android.telephony.PhoneNumberUtils
-import com.simplemobiletools.commons.extensions.normalizePhoneNumber
-import com.simplemobiletools.commons.extensions.normalizeString
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.PhoneNumber
+import ch.hades.commons.extensions.normalizePhoneNumber
+import ch.hades.commons.extensions.normalizeString
+import ch.hades.commons.helpers.*
+import ch.hades.commons.models.PhoneNumber
 import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
 

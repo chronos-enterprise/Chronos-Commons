@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package ch.hades.commons.activities
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -6,16 +6,16 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.adapters.ManageBlockedNumbersAdapter
-import com.simplemobiletools.commons.databinding.ActivityManageBlockedNumbersBinding
-import com.simplemobiletools.commons.dialogs.AddBlockedNumberDialog
-import com.simplemobiletools.commons.dialogs.ExportBlockedNumbersDialog
-import com.simplemobiletools.commons.dialogs.FilePickerDialog
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.interfaces.RefreshRecyclerViewListener
-import com.simplemobiletools.commons.models.BlockedNumber
+import ch.hades.commons.R
+import ch.hades.commons.adapters.ManageBlockedNumbersAdapter
+import ch.hades.commons.databinding.ActivityManageBlockedNumbersBinding
+import ch.hades.commons.dialogs.AddBlockedNumberDialog
+import ch.hades.commons.dialogs.ExportBlockedNumbersDialog
+import ch.hades.commons.dialogs.FilePickerDialog
+import ch.hades.commons.extensions.*
+import ch.hades.commons.helpers.*
+import ch.hades.commons.interfaces.RefreshRecyclerViewListener
+import ch.hades.commons.models.BlockedNumber
 import java.io.FileOutputStream
 import java.io.OutputStream
 

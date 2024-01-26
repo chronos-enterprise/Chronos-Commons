@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package ch.hades.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,9 +6,9 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatSpinner
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.adapters.MyArrayAdapter
-import com.simplemobiletools.commons.extensions.applyColorFilter
+import ch.hades.commons.R
+import ch.hades.commons.adapters.MyArrayAdapter
+import ch.hades.commons.extensions.applyColorFilter
 
 class MyAppCompatSpinner : AppCompatSpinner {
     constructor(context: Context) : super(context)

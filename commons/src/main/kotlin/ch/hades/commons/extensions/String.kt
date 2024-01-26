@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package ch.hades.commons.extensions
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -13,7 +13,7 @@ import android.text.TextUtils
 import android.text.style.ForegroundColorSpan
 import android.widget.TextView
 import com.bumptech.glide.signature.ObjectKey
-import com.simplemobiletools.commons.helpers.*
+import ch.hades.commons.helpers.*
 import org.joda.time.DateTime
 import org.joda.time.Years
 import org.joda.time.format.DateTimeFormat

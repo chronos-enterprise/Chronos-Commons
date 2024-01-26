@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.screens
+package ch.hades.commons.compose.screens
 
 import android.os.Build
 import android.text.Html
@@ -20,13 +20,13 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.settings.SettingsHorizontalDivider
-import com.simplemobiletools.commons.compose.settings.scaffold.SettingsLazyScaffold
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.extensions.removeUnderlines
-import com.simplemobiletools.commons.models.FAQItem
+import ch.hades.commons.R
+import ch.hades.commons.compose.extensions.MyDevices
+import ch.hades.commons.compose.settings.SettingsHorizontalDivider
+import ch.hades.commons.compose.settings.scaffold.SettingsLazyScaffold
+import ch.hades.commons.compose.theme.AppThemeSurface
+import ch.hades.commons.extensions.removeUnderlines
+import ch.hades.commons.models.FAQItem
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

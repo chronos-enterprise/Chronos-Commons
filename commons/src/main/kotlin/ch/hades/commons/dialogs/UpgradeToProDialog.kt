@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogUpgradeToProBinding
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.launchUpgradeToProIntent
-import com.simplemobiletools.commons.extensions.launchViewIntent
-import com.simplemobiletools.commons.extensions.setupDialogStuff
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogUpgradeToProBinding
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.launchUpgradeToProIntent
+import ch.hades.commons.extensions.launchViewIntent
+import ch.hades.commons.extensions.setupDialogStuff
 
 class UpgradeToProDialog(val activity: Activity) {
 

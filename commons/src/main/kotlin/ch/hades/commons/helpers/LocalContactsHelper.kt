@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.helpers
+package ch.hades.commons.helpers
 
 import android.content.Context
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.provider.ContactsContract.CommonDataKinds.Event
 import android.provider.MediaStore
-import com.simplemobiletools.commons.extensions.contactsDB
-import com.simplemobiletools.commons.extensions.getByteArray
-import com.simplemobiletools.commons.extensions.getEmptyContact
-import com.simplemobiletools.commons.models.SimpleContact
-import com.simplemobiletools.commons.models.contacts.Contact
-import com.simplemobiletools.commons.models.contacts.*
-import com.simplemobiletools.commons.models.contacts.LocalContact
+import ch.hades.commons.extensions.contactsDB
+import ch.hades.commons.extensions.getByteArray
+import ch.hades.commons.extensions.getEmptyContact
+import ch.hades.commons.models.SimpleContact
+import ch.hades.commons.models.contacts.Contact
+import ch.hades.commons.models.contacts.*
+import ch.hades.commons.models.contacts.LocalContact
 
 class LocalContactsHelper(val context: Context) {
     fun getAllContacts(favoritesOnly: Boolean = false): ArrayList<Contact> {

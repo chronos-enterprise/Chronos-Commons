@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.databases
+package ch.hades.commons.databases
 
 import android.content.Context
 import androidx.room.Database
@@ -7,14 +7,14 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.simplemobiletools.commons.helpers.Converters
-import com.simplemobiletools.commons.helpers.FIRST_CONTACT_ID
-import com.simplemobiletools.commons.helpers.FIRST_GROUP_ID
-import com.simplemobiletools.commons.helpers.getEmptyLocalContact
-import com.simplemobiletools.commons.interfaces.ContactsDao
-import com.simplemobiletools.commons.interfaces.GroupsDao
-import com.simplemobiletools.commons.models.contacts.Group
-import com.simplemobiletools.commons.models.contacts.LocalContact
+import ch.hades.commons.helpers.Converters
+import ch.hades.commons.helpers.FIRST_CONTACT_ID
+import ch.hades.commons.helpers.FIRST_GROUP_ID
+import ch.hades.commons.helpers.getEmptyLocalContact
+import ch.hades.commons.interfaces.ContactsDao
+import ch.hades.commons.interfaces.GroupsDao
+import ch.hades.commons.models.contacts.Group
+import ch.hades.commons.models.contacts.LocalContact
 import java.util.concurrent.Executors
 
 @Database(entities = [LocalContact::class, Group::class], version = 3, exportSchema = true)

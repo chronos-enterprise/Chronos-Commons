@@ -30,33 +30,33 @@
 
     <application android:supportsRtl="true">
         <activity
-            android:name="com.simplemobiletools.commons.activities.ContributorsActivity"
+            android:name="ch.hades.commons.activities.ContributorsActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/contributors"
-            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+            android:parentActivityName="ch.hades.commons.activities.AboutActivity" />
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.FAQActivity"
+            android:name="ch.hades.commons.activities.FAQActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/frequently_asked_questions"
-            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+            android:parentActivityName="ch.hades.commons.activities.AboutActivity" />
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.LicenseActivity"
+            android:name="ch.hades.commons.activities.LicenseActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/third_party_licences"
-            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+            android:parentActivityName="ch.hades.commons.activities.AboutActivity" />
 
         <receiver
             android:name=".receivers.SharedThemeReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.simplemobiletools.commons.SHARED_THEME_ACTIVATED" />
-                <action android:name="com.simplemobiletools.commons.SHARED_THEME_UPDATED" />
+                <action android:name="ch.hades.commons.SHARED_THEME_ACTIVATED" />
+                <action android:name="ch.hades.commons.SHARED_THEME_UPDATED" />
             </intent-filter>
         </receiver>
     </application>

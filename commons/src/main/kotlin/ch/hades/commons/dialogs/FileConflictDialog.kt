@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.dialogs
+package ch.hades.commons.dialogs
 
 import android.app.Activity
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogFileConflictBinding
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.beVisibleIf
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.setupDialogStuff
-import com.simplemobiletools.commons.helpers.CONFLICT_KEEP_BOTH
-import com.simplemobiletools.commons.helpers.CONFLICT_MERGE
-import com.simplemobiletools.commons.helpers.CONFLICT_OVERWRITE
-import com.simplemobiletools.commons.helpers.CONFLICT_SKIP
-import com.simplemobiletools.commons.models.FileDirItem
+import ch.hades.commons.R
+import ch.hades.commons.databinding.DialogFileConflictBinding
+import ch.hades.commons.extensions.baseConfig
+import ch.hades.commons.extensions.beVisibleIf
+import ch.hades.commons.extensions.getAlertDialogBuilder
+import ch.hades.commons.extensions.setupDialogStuff
+import ch.hades.commons.helpers.CONFLICT_KEEP_BOTH
+import ch.hades.commons.helpers.CONFLICT_MERGE
+import ch.hades.commons.helpers.CONFLICT_OVERWRITE
+import ch.hades.commons.helpers.CONFLICT_SKIP
+import ch.hades.commons.models.FileDirItem
 
 class FileConflictDialog(
     val activity: Activity, val fileDirItem: FileDirItem, val showApplyToAllCheckbox: Boolean,
